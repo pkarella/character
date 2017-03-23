@@ -13,42 +13,37 @@
 <body>
   <div class="container-fluid">
     <div class="row" >
-      <div class="col-md-4">
-        <h1>Which Character are You?</h1>
-        <h4>Fill out the form to find out which celebrity is your TRUE match</h4>
-        <form id="info-form">
-          <div class="form-group">
-            <label for="born">Date of birth:</label>
-            <input id="born" class="form-control" type="date">
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="pet" value="cats" checked>
-              Cats
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="pet" value="dogs">
-              Dogs
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="pet" value="nopets">
-              I hate pets
-            </label>
-          </div>
-          <select class="form-control" id="sign">
-            <option>Aries</option>
-            <option>Taurus</option>
-            <option>Leo</option>
-          </select>
+      <div class="col-md-6">
+        <div class="panel panel default">
+          <div class="panel-body">
+            <h1>Which Character are You?</h1>
+            <p>There are many sites out there that offer to determine which movie/tv/book character you are most like based on your answers to a short quiz. Choose a movie, tv show or book and build a website that asks users a series of questions and then tells them which movie character they are based on their answers.</p>
+            <form id="info-form">
+              <h3>What range do you prefer to attack from?</h3>
+              <select class="form-control" id="range">
+                <option>Up close and personal</option>
+                <option>From a distance</option>
+                <option>I don't like to hurt anyone</option>
+              </select>
+              <h3>What are your thoughts on magic?</h3>
+              <select class="form-control" id="magic">
+                <option>Magic = life</option>
+                <option>Not for me</option>
+              </select>
+              <h3>Do you like jewelry?</h3>
+              <select class="form-control" id="jewelry">
+                <option>Meh</option>
+                <option>MY PRECIOUS</option>
+              </select>
 
-          <button type="submit" class="btn">Submit!</button>
-        </form>
+            <button type="submit" class="btn">Submit!</button>
+          </form>
       </div>
-      <div class="col-md-8">
+    </div>
+    </div>
+      <div class="col-md-6">
+        <div class="panel panel default">
+          <div class="panel-body">
         <h2></h2>
       </div>
     </div>

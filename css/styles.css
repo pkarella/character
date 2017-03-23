@@ -1,3 +1,19 @@
-h2  {
-  font-size: 50px;
+/*#F8B195 #F67280 #C06C84 #6C5B7B #355C7D*/
+
+body {
+  background-color: #F67280;
+  color: #355C7D;
+}
+
+.btn {
+  margin: 10px;
+}
+
+.col-md-6 {
+  padding: 15px;
+}
+
+.panel-body {
+  height: 500px;
+  background: #F8B195;
 }
